@@ -8,3 +8,5 @@
 [2026-06-24 10:24:15] [CREATED] task_007: Testear funcionalidades básicas → frontend_expert
 [2026-06-24 10:24:15] [CREATED] task_008: README → writer_agent
 [2026-06-24 10:24:15] [IN_PROGRESS] task_001: Crear estructura HTML
+[2026-06-24 10:27:52] [COMPLETED] task_001: Crear estructura HTML
+[2026-06-24 10:27:55] [IN_PROGRESS] task_002: Diseñar estilos CSS
