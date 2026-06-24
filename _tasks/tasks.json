@@ -1,0 +1,138 @@
+{
+  "tasks": [
+    {
+      "id": "task_001",
+      "title": "Crear estructura HTML",
+      "description": "Crear index.html con layout de dashboard: secciones para input area, output area, historial de uso y botón para exportar resultados.",
+      "assigned_to": "frontend_expert",
+      "status": "in_progress",
+      "priority": 1,
+      "dependencies": [],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T10:24:15.250491",
+      "started_at": "2026-06-24T10:24:15.862914",
+      "completed_at": null
+    },
+    {
+      "id": "task_002",
+      "title": "Diseñar estilos CSS",
+      "description": "Crear styles.css con diseño moderno: tema claro/oscuro, grid layout para areas de input/output, historial y botón exportar, hover effects, fuente Inter de Google Fonts.",
+      "assigned_to": "ui_expert",
+      "status": "pending",
+      "priority": 2,
+      "dependencies": [
+        "task_001"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T10:24:15.266408",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_003",
+      "title": "Implementar lógica JavaScript para input/output areas",
+      "description": "Crear script.js con funciones para manejar el input de archivos, visualizarlos en la área de output y mantener un historial de uso.",
+      "assigned_to": "frontend_expert",
+      "status": "pending",
+      "priority": 3,
+      "dependencies": [
+        "task_001"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T10:24:15.266408",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_004",
+      "title": "Guardar historial en localStorage",
+      "description": "Modificar script.js para guardar el historial de uso en localStorage y cargarlo al iniciar la aplicación.",
+      "assigned_to": "frontend_expert",
+      "status": "pending",
+      "priority": 4,
+      "dependencies": [
+        "task_003"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T10:24:15.282259",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_005",
+      "title": "Implementar exportación de resultados",
+      "description": "Agregar funcionalidad para exportar los resultados como archivo en script.js, con opciones para diferentes formatos.",
+      "assigned_to": "frontend_expert",
+      "status": "pending",
+      "priority": 5,
+      "dependencies": [
+        "task_003"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T10:24:15.282259",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_006",
+      "title": "Implementar tema claro/oscuro",
+      "description": "Modificar styles.css y script.js para implementar un toggle de tema claro/oscuro que cambie los estilos dinámicamente.",
+      "assigned_to": "ui_expert",
+      "status": "pending",
+      "priority": 6,
+      "dependencies": [
+        "task_002"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T10:24:15.294708",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_007",
+      "title": "Testear funcionalidades básicas",
+      "description": "Crear tests.js con pruebas unitarias para las funciones de input/output, historial y exportación.",
+      "assigned_to": "frontend_expert",
+      "status": "pending",
+      "priority": 7,
+      "dependencies": [
+        "task_003",
+        "task_004",
+        "task_005"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T10:24:15.308083",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_008",
+      "title": "README",
+      "description": "Crear README.md con descripción del proyecto, screenshot placeholder, instrucciones de uso y detalles técnicos.",
+      "assigned_to": "writer_agent",
+      "status": "pending",
+      "priority": 8,
+      "dependencies": [
+        "task_001",
+        "task_002",
+        "task_003",
+        "task_004",
+        "task_005",
+        "task_006"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T10:24:15.308083",
+      "started_at": null,
+      "completed_at": null
+    }
+  ],
+  "updated_at": "2026-06-24T10:24:15.862914"
+}

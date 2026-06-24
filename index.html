@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Format Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dashboard">
+        <header>
+            <h1>File Format Converter</h1>
+            <button id="theme-toggle">Toggle Theme</button>
+        </header>
+
+        <main>
+            <section class="input-area">
+                <h2>Input Area</h2>
+                <textarea id="input-text" placeholder="Enter text to convert..."></textarea>
+            </section>
+
+            <section class="output-area">
+                <h2>Output Area</h2>
+                <textarea id="output-text" readonly></textarea>
+            </section>
+
+            <section class="history">
+                <h2>Usage History</h2>
+                <ul id="history-list"></ul>
+            </section>
+        </main>
+
+        <footer>
+            <button id="export-button">Export Result</button>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

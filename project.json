@@ -1,0 +1,16 @@
+{
+  "name": "file_format_converter",
+  "display_name": "file_format_converter",
+  "description": "Aplicación web de conversor de formatos de archivo con interfaz moderna tipo dashboard, áreas de input/output, historial de uso guardado en localStorage, exportar resultados como archivo, tema claro/oscuro.",
+  "tech_stack": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "created_at": "2026-06-24T10:24:15.250491",
+  "created_by": "Bot_Ant Multi-Agent System",
+  "version": "1.0.0",
+  "status": "in_development",
+  "portable": true,
+  "notes": "Este proyecto es portable. Puedes mover la carpeta completa a otro equipo."
+}

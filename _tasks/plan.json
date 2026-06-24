@@ -1,0 +1,88 @@
+{
+  "project_name": "file_format_converter",
+  "description": "Aplicación web de conversor de formatos de archivo con interfaz moderna tipo dashboard, áreas de input/output, historial de uso guardado en localStorage, exportar resultados como archivo, tema claro/oscuro.",
+  "tech_stack": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "tasks": [
+    {
+      "title": "Crear estructura HTML",
+      "description": "Crear index.html con layout de dashboard: secciones para input area, output area, historial de uso y botón para exportar resultados.",
+      "assigned_to": "frontend_expert",
+      "dependencies": [],
+      "priority": 1
+    },
+    {
+      "title": "Diseñar estilos CSS",
+      "description": "Crear styles.css con diseño moderno: tema claro/oscuro, grid layout para areas de input/output, historial y botón exportar, hover effects, fuente Inter de Google Fonts.",
+      "assigned_to": "ui_expert",
+      "dependencies": [
+        "task_001"
+      ],
+      "priority": 2
+    },
+    {
+      "title": "Implementar lógica JavaScript para input/output areas",
+      "description": "Crear script.js con funciones para manejar el input de archivos, visualizarlos en la área de output y mantener un historial de uso.",
+      "assigned_to": "frontend_expert",
+      "dependencies": [
+        "task_001"
+      ],
+      "priority": 3
+    },
+    {
+      "title": "Guardar historial en localStorage",
+      "description": "Modificar script.js para guardar el historial de uso en localStorage y cargarlo al iniciar la aplicación.",
+      "assigned_to": "frontend_expert",
+      "dependencies": [
+        "task_003"
+      ],
+      "priority": 4
+    },
+    {
+      "title": "Implementar exportación de resultados",
+      "description": "Agregar funcionalidad para exportar los resultados como archivo en script.js, con opciones para diferentes formatos.",
+      "assigned_to": "frontend_expert",
+      "dependencies": [
+        "task_003"
+      ],
+      "priority": 5
+    },
+    {
+      "title": "Implementar tema claro/oscuro",
+      "description": "Modificar styles.css y script.js para implementar un toggle de tema claro/oscuro que cambie los estilos dinámicamente.",
+      "assigned_to": "ui_expert",
+      "dependencies": [
+        "task_002"
+      ],
+      "priority": 6
+    },
+    {
+      "title": "Testear funcionalidades básicas",
+      "description": "Crear tests.js con pruebas unitarias para las funciones de input/output, historial y exportación.",
+      "assigned_to": "frontend_expert",
+      "dependencies": [
+        "task_003",
+        "task_004",
+        "task_005"
+      ],
+      "priority": 7
+    },
+    {
+      "title": "README",
+      "description": "Crear README.md con descripción del proyecto, screenshot placeholder, instrucciones de uso y detalles técnicos.",
+      "assigned_to": "writer_agent",
+      "dependencies": [
+        "task_001",
+        "task_002",
+        "task_003",
+        "task_004",
+        "task_005",
+        "task_006"
+      ],
+      "priority": 8
+    }
+  ]
+}
