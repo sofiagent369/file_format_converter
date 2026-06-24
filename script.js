@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const historyList = document.getElementById('history-list');
     const themeToggle = document.getElementById('theme-toggle');
     const exportButton = document.getElementById('export-button');
+    const fileFormatSelect = document.getElementById('file-format');
 
     // Función para cargar el historial desde localStorage
     function loadHistory() {
@@ -60,11 +61,21 @@ document.addEventListener('DOMContentLoaded', () => {
     exportButton.addEventListener('click', () => {
         const outputTextContent = outputText.value;
         if (outputTextContent) {
-            const blob = new Blob([outputTextContent], { type: 'text/plain' });
+            const format = fileFormatSelect.value;
+            let blob, filename;
+
+            if (format === 'txt') {
+                blob = new Blob([outputTextContent], { type: 'text/plain' });
+                filename = 'converted_text.txt';
+            } else if (format === 'json') {
+                blob = new Blob([JSON.stringify(outputTextContent)], { type: 'application/json' });
+                filename = 'converted_data.json';
+            }
+
             const url = URL.createObjectURL(blob);
             const a = document.createElement('a');
             a.href = url;
-            a.download = 'converted_text.txt';
+            a.download = filename;
             a.click();
             URL.revokeObjectURL(url);
         } else {
