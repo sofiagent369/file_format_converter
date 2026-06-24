@@ -2,7 +2,7 @@
   "name": "file_format_converter",
   "display_name": "file_format_converter",
   "description": "Aplicación web de conversor de formatos de archivo con interfaz moderna tipo dashboard, áreas de input/output, historial de uso guardado en localStorage, exportar resultados como archivo, tema claro/oscuro.",
-  "tech_stack": [
+  "techStack": [
     "HTML",
     "CSS",
     "JavaScript"

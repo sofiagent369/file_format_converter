@@ -22,3 +22,4 @@
 [2026-06-24 10:55:56] [IN_PROGRESS] task_007: Testear funcionalidades básicas
 [2026-06-24 11:00:26] [COMPLETED] task_007: Testear funcionalidades básicas
 [2026-06-24 11:00:29] [IN_PROGRESS] task_008: README
+[2026-06-24 11:03:25] [COMPLETED] task_008: README
