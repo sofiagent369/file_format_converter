@@ -16,3 +16,5 @@
 [2026-06-24 10:36:05] [IN_PROGRESS] task_004: Guardar historial en localStorage
 [2026-06-24 10:40:23] [COMPLETED] task_004: Guardar historial en localStorage
 [2026-06-24 10:40:25] [IN_PROGRESS] task_005: Implementar exportación de resultados
+[2026-06-24 10:46:29] [COMPLETED] task_005: Implementar exportación de resultados
+[2026-06-24 10:46:31] [IN_PROGRESS] task_006: Implementar tema claro/oscuro

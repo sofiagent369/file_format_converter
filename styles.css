@@ -4,23 +4,14 @@
 /* Variables de tema */
 :root {
     --background-light: #f4f4f9;
-    --background-dark: #1e1e25;
     --text-light: #333;
+    --primary-color-light: #6a0dad;
+    --accent-color-light: #ff6b6b;
+
+    --background-dark: #1e1e25;
     --text-dark: #fff;
-    --primary-color: #6a0dad;
-    --accent-color: #ff6b6b;
-}
-
-body.dark-theme {
-    --background-color: var(--background-dark);
-    --text-color: var(--text-dark);
-}
-
-/* Estilos básicos */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    --primary-color-dark: #9c46d3;
+    --accent-color-dark: #ff7f7f;
 }
 
 body {
@@ -32,6 +23,25 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+}
+
+body.dark-theme {
+    --background-color: var(--background-dark);
+    --text-color: var(--text-dark);
+    --primary-color: var(--primary-color-dark);
+    --accent-color: var(--accent-color-dark);
+}
+
+/* Estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body.dark-theme {
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
 
 .dashboard {

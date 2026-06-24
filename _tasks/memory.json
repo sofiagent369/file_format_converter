@@ -15,6 +15,10 @@
     {
       "content": "Agente ⚛️ Experto Frontend completó: Guardar historial en localStorage. Archivos: script.js",
       "timestamp": "2026-06-24T10:40:23.058516"
+    },
+    {
+      "content": "Agente ⚛️ Experto Frontend completó: Implementar exportación de resultados. Archivos: index.html, script.js",
+      "timestamp": "2026-06-24T10:46:29.235610"
     }
   ],
   "decisions": [],
@@ -29,7 +33,9 @@
       "script.js"
     ],
     "ui_expert": [
-      "styles.css"
+      "styles.css",
+      "styles.css",
+      "script.js"
     ]
   }
 }
