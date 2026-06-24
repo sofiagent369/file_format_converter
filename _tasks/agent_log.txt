@@ -18,3 +18,5 @@
 [2026-06-24 10:40:25] [IN_PROGRESS] task_005: Implementar exportación de resultados
 [2026-06-24 10:46:29] [COMPLETED] task_005: Implementar exportación de resultados
 [2026-06-24 10:46:31] [IN_PROGRESS] task_006: Implementar tema claro/oscuro
+[2026-06-24 10:55:54] [COMPLETED] task_006: Implementar tema claro/oscuro
+[2026-06-24 10:55:56] [IN_PROGRESS] task_007: Testear funcionalidades básicas
